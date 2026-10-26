@@ -25,4 +25,4 @@ Keep commits focused. Pull requests should describe the problem, resulting behav
 3. Merge the validated release into `main` and synchronize `develop`.
 4. Create the matching `v<version>` tag on `main`. Publish only the latest installer and portable executable from the fixed `release/` folder as GitHub Release assets, not Git-tracked files.
 
-The release script replaces old output folders. Never delete user data during release cleanup. Desktop installers are currently unsigned. Real Android/iOS camera and certificate installation checks remain part of manual validation.
+The release script replaces old output folders and explicitly disables automatic publishing, including in CI. Publish GitHub Release assets separately after validation. Never delete user data during release cleanup. Desktop installers are currently unsigned. Real Android/iOS camera and certificate installation checks remain part of manual validation.
