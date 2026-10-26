@@ -1,0 +1,30 @@
+node_modules/
+data/
+dist/
+release/
+release-icons/
+*.log
+
+# Local tools, research downloads and generated assets.
+/.tools/
+/build/*
+!/build/gameoteca.ico
+/docs/*.png
+/coverage/
+/artifacts/
+
+# Private collection data, credentials and local certificates.
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.pem
+*.key
+*.pfx
+*.p12
+*.cer
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

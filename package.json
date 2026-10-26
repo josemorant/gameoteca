@@ -1,0 +1,64 @@
+{
+  "name": "mi-gameoteca",
+  "version": "1.3.0",
+  "private": true,
+  "author": { "name": "Jose Morant", "url": "https://josemorant.com" },
+  "license": "MIT",
+  "homepage": "https://github.com/josemorant/gameoteca#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/josemorant/gameoteca.git" },
+  "bugs": { "url": "https://github.com/josemorant/gameoteca/issues" },
+  "engines": { "node": ">=22.13.0" },
+  "description": "Personal game collection with SQLite, multilingual UI and mobile scanning",
+  "main": "src/desktop.cjs",
+  "scripts": {
+    "start": "node src/server.cjs",
+    "desktop": "electron .",
+    "test": "node --test test/*.test.cjs",
+    "dist:win": "node scripts/release.cjs",
+    "verify:package": "node test-package.cjs"
+  },
+  "dependencies": {
+    "@peculiar/x509": "^2.2.0",
+    "@zxing/library": "^0.21.3",
+    "bootstrap": "^5.3.3",
+    "fast-xml-parser": "^5.11.2",
+    "fflate": "^0.8.3",
+    "node-html-parser": "^9.0.5",
+    "qrcode": "^1.5.4",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "bwip-js": "^4.11.4",
+    "electron": "^45.0.0",
+    "electron-builder": "^26.0.12",
+    "jsqr": "^1.4.0"
+  },
+  "build": {
+    "appId": "es.gameoteca.catalogador",
+    "productName": "Mi Gameoteca",
+    "asar": true,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "LICENSE",
+      "THIRD_PARTY_NOTICES.md",
+      "src/**",
+      "public/**",
+      "package.json",
+      "node_modules/bootstrap/**",
+      "node_modules/@zxing/**"
+    ],
+    "win": {
+      "icon": "build/gameoteca.ico",
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
