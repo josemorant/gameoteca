@@ -2,9 +2,11 @@
 
 A Node.js game collection app with integrated SQLite, an Electron desktop app for Windows, local mobile scanning and a responsive Bootstrap interface.
 
-Created by **[Jose Morant](https://josemorant.com)** · [LinkedIn](https://linkedin.com/in/josemorant) · [GitHub](https://github.com/josemorant).
-
 Open source under the [MIT License](LICENSE). Third-party libraries and downloaded game artwork retain their own licenses and rights; see [third-party notices](THIRD_PARTY_NOTICES.md).
+
+## Download for Windows
+
+Download the installer or portable executable from [GitHub Releases](https://github.com/josemorant/gameoteca/releases/latest). Windows builds include Node.js; no separate installation is required. The executables are currently unsigned.
 
 ## Run
 
