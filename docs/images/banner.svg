@@ -1,7 +1,7 @@
 <!-- Copyright (c) 2026 Jose Morant. SPDX-License-Identifier: MIT -->
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title description">
   <title id="title">Gameoteca</title>
-  <desc id="description">Your games. Your collection. Windows desktop app, local SQLite storage and mobile barcode scanning.</desc>
+  <desc id="description">Your games. Your collection. Original controller and barcode-scanning phone illustrations.</desc>
   <defs><clipPath id="banner"><rect width="1280" height="360" rx="24"/></clipPath></defs>
   <g clip-path="url(#banner)">
   <rect width="1280" height="360" rx="24" fill="#e60012"/>
@@ -13,20 +13,16 @@
     <text x="169" y="129" font-size="66" font-weight="800" letter-spacing="-2">Gameoteca</text>
     <text x="62" y="211" font-size="30" font-weight="600">Your games. Your collection.</text>
     <text x="63" y="246" font-size="18" fill-opacity=".85">Keep every title, every edition and every story.</text>
-    <g font-size="14" font-weight="700" letter-spacing=".5">
-      <rect x="62" y="280" width="113" height="32" rx="16" fill="none" stroke="#fff" stroke-opacity=".5"/>
-      <text x="118" y="301" text-anchor="middle">WINDOWS</text>
-      <rect x="187" y="280" width="135" height="32" rx="16" fill="none" stroke="#fff" stroke-opacity=".5"/>
-      <text x="254" y="301" text-anchor="middle">LOCAL SQLITE</text>
-      <rect x="334" y="280" width="159" height="32" rx="16" fill="none" stroke="#fff" stroke-opacity=".5"/>
-      <text x="413" y="301" text-anchor="middle">MOBILE SCANNER</text>
-    </g>
   </g>
-  <g transform="translate(864 73) rotate(-9 72 102)" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round">
-    <rect width="143" height="209" rx="10" fill="#fff" fill-opacity=".08"/>
-    <path d="M19 0v209M19 30h124" stroke-opacity=".6"/>
-    <circle cx="82" cy="102" r="30" stroke-opacity=".8"/>
-    <path d="m72 84 26 18-26 18zM42 161h70M42 177h46"/>
+  <g transform="translate(804 117) rotate(-12 112 70)" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M52 12C31 12 19 27 14 51L2 104c-4 20 15 34 30 21l29-25h102l29 25c15 13 34-1 30-21l-12-53c-5-24-17-39-38-39z" fill="#c90010"/>
+    <path d="M40 14c7-9 24-10 35-6M149 8c11-4 28-3 35 6" stroke-opacity=".65"/>
+    <path d="M48 35h16v15h15v16H64v15H48V66H33V50h15z"/>
+    <circle cx="171" cy="36" r="7"/>
+    <circle cx="190" cy="55" r="7"/>
+    <circle cx="152" cy="55" r="7"/>
+    <circle cx="171" cy="74" r="7"/>
+    <path d="M99 52h8M119 52h8" stroke-width="5"/>
   </g>
   <g transform="translate(1036 69) rotate(8 62 112)" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round">
     <rect width="126" height="227" rx="22" fill="#c90010"/>
