@@ -1,0 +1,38 @@
+<!-- Copyright (c) 2026 Jose Morant. SPDX-License-Identifier: MIT -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title description">
+  <title id="title">Gameoteca</title>
+  <desc id="description">Your games. Your collection. Windows desktop app, local SQLite storage and mobile barcode scanning.</desc>
+  <defs><clipPath id="banner"><rect width="1280" height="360" rx="24"/></clipPath></defs>
+  <g clip-path="url(#banner)">
+  <rect width="1280" height="360" rx="24" fill="#e60012"/>
+  <circle cx="1190" cy="52" r="285" fill="#c90010"/>
+  <circle cx="1220" cy="30" r="205" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="2"/>
+  <rect x="58" y="63" width="86" height="86" rx="22" fill="#fff"/>
+  <text x="101" y="127" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="65" font-weight="800" fill="#e60012">G</text>
+  <g fill="#fff" font-family="Arial,Helvetica,sans-serif">
+    <text x="169" y="129" font-size="66" font-weight="800" letter-spacing="-2">Gameoteca</text>
+    <text x="62" y="211" font-size="30" font-weight="600">Your games. Your collection.</text>
+    <text x="63" y="246" font-size="18" fill-opacity=".85">Keep every title, every edition and every story.</text>
+    <g font-size="14" font-weight="700" letter-spacing=".5">
+      <rect x="62" y="280" width="113" height="32" rx="16" fill="none" stroke="#fff" stroke-opacity=".5"/>
+      <text x="118" y="301" text-anchor="middle">WINDOWS</text>
+      <rect x="187" y="280" width="135" height="32" rx="16" fill="none" stroke="#fff" stroke-opacity=".5"/>
+      <text x="254" y="301" text-anchor="middle">LOCAL SQLITE</text>
+      <rect x="334" y="280" width="159" height="32" rx="16" fill="none" stroke="#fff" stroke-opacity=".5"/>
+      <text x="413" y="301" text-anchor="middle">MOBILE SCANNER</text>
+    </g>
+  </g>
+  <g transform="translate(864 73) rotate(-9 72 102)" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round">
+    <rect width="143" height="209" rx="10" fill="#fff" fill-opacity=".08"/>
+    <path d="M19 0v209M19 30h124" stroke-opacity=".6"/>
+    <circle cx="82" cy="102" r="30" stroke-opacity=".8"/>
+    <path d="m72 84 26 18-26 18zM42 161h70M42 177h46"/>
+  </g>
+  <g transform="translate(1036 69) rotate(8 62 112)" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round">
+    <rect width="126" height="227" rx="22" fill="#c90010"/>
+    <path d="M46 17h34M54 209h18M19 83V68h15M92 68h15v15M19 143v15h15M92 158h15v-15"/>
+    <path d="M34 92v41m9-41v41m13-41v41m7-41v41m12-41v41m9-41v41m8-41v41" stroke-width="3"/>
+    <path d="M24 113h78" stroke="#ff8f9a" stroke-width="2"/>
+  </g>
+  </g>
+</svg>

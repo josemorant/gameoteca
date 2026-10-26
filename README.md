@@ -1,3 +1,5 @@
+![Gameoteca — Your games. Your collection.](docs/images/banner.svg)
+
 # Gameoteca
 
 A Node.js game collection app with integrated SQLite, an Electron desktop app for Windows, local mobile scanning and a responsive Bootstrap interface.
@@ -18,6 +20,36 @@ npm start
 ```
 
 Open http://localhost:3210. Run `npm run desktop` for the desktop window.
+
+## How to use Gameoteca
+
+### Browse your collection
+
+Switch between **List**, **Small tiles**, **Medium tiles** and **Large tiles**. Search by title, barcode or edition, select one or more platforms, and sort by title, platform, condition or date added.
+
+![Gameoteca collection in medium tiles with five Nintendo Switch games](docs/images/collection-tiles.png)
+
+Use **List** for a compact view of each game's condition and edition. **Export collection** saves the collection records as JSON; see [Data and backup](#data-and-backup) for a complete backup including images.
+
+![List view showing game titles, conditions, editions and copy actions](docs/images/collection-list.png)
+
+### Add a game and manage physical copies
+
+Choose **Add game**, enter a barcode and select **Identify**, or enter the title and platform yourself. Use **Find cover artwork online** to select artwork when needed. Existing copies open with **Edit**.
+
+![Editing Metroid Prime 4 Beyond with its barcode, platform and downloaded cover](docs/images/copy-details.png)
+
+Scroll down to choose the physical copy's **Copy condition**, **Edition / version** and **Notes**, then select **Save copy**. Use **Another copy** on a game card to add a second physical item with its own condition, edition and notes.
+
+![Copy condition, edition, notes and save controls](docs/images/copy-condition.png)
+
+### Scan from your phone
+
+Choose **Connect phone** on the PC and follow the [mobile connection steps](#mobile-connection): scan the QR, trust the PC's local certificate on first use and enter the four-digit PIN. On the phone, tap **Start scanner** and point the rear camera at a barcode. Identified game details and available artwork are filled automatically; review the copy details and save.
+
+<p align="center"><img src="docs/images/mobile-scanner.png" alt="Mobile barcode scanner with camera framing guide, start button and manual entry alternative" width="320"></p>
+
+The mobile screenshot shows the scanner before camera activation. Screenshots use a collection shared by the author; personal notes, pairing codes and network addresses are omitted. Game artwork remains the property of its respective rights holders.
 
 ## Languages
 
