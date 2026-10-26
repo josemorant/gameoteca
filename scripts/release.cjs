@@ -15,6 +15,6 @@ for (const name of ['dist', 'release-icons', 'release']) {
   }
 }
 const builder = require.resolve('electron-builder/cli.js');
-const result = spawnSync(process.execPath, [builder, '--win', 'nsis', 'portable', '--config.directories.output=' + output], { cwd: root, stdio: 'inherit' });
+const result = spawnSync(process.execPath, [builder, '--win', 'nsis', 'portable', '--publish', 'never', '--config.directories.output=' + output], { cwd: root, stdio: 'inherit' });
 process.exitCode = result.status ?? 1;
 if (result.error) console.error(result.error.message);
