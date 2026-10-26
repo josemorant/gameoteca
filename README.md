@@ -1,4 +1,4 @@
-![Gameoteca — Your games. Your collection.](docs/images/banner.svg)
+![Gameoteca — Your games. Your collection.](docs/images/gameoteca-banner.svg)
 
 # Gameoteca
 
